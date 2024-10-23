@@ -15,7 +15,7 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        int expected = 2;
+        int expected = 2;//esperado 
         int actual = App.sum(1,1);
 
         assertTrue( expected == actual );
